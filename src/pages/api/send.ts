@@ -24,6 +24,7 @@ export interface CollectRequestBody {
     hostname?: string;
     ip?: string;
     language?: string;
+    session?: string;
     name?: string;
     referrer?: string;
     screen?: string;
